@@ -1,0 +1,66 @@
+---
+title: "COVID-19 Analysis"
+author: "Ayorinde Ayomide David"
+date: "`r Sys.Date()`"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+
+
+if(!require(pacman)) install.packages("pacman")
+
+pacman::p_load(tidyverse,
+               here # Used to coerce Rmarkdown into reading our dataset from a seperate folder
+               )
+```
+
+
+# Loading the COVID-19 dataset into R
+```{r}
+
+covid <- read_csv(here("Data/COVID19_line_list_data.csv"))
+```
+
+
+```{r}
+view(covid)
+```
+
+
+```{r}
+```
+
+
+```{r}
+```
+
+
+```{r}
+```
+
+
+```{r}
+```
+
+
+```{r}
+```
+
+
+```{r}
+```
+
+
+```{r}
+```
+
+
+```{r}
+```
+
+
+```{r}
+```
+
